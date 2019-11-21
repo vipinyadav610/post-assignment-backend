@@ -1,0 +1,44 @@
+{
+  "name": "jalan-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "build": "babel src --out-dir build",
+    "clean": "rm -rf build",
+    "lint": "eslint src"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@hapi/joi": "^16.1.7",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.6.0",
+    "express": "^4.16.2",
+    "fs": "^0.0.1-security",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.5",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.4",
+    "path": "^0.12.7",
+    "pg": "^7.8.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.43.0",
+    "sequelize-cli": "^5.5.1",
+    "swagger-jsdoc": "^3.4.0",
+    "swagger-ui-express": "^4.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/plugin-transform-async-to-generator": "^7.7.0",
+    "@babel/preset-env": "^7.7.1"
+  }
+}

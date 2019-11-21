@@ -1,0 +1,35 @@
+{
+  "development": {
+    "username": "root",
+    "password": "toor.321",
+    "database": "vitalally",
+    "host": "simform-postgres.cdd8rqrowdfm.us-west-1.rds.amazonaws.com",
+    "dialect": "postgres",
+    "port": 5432,
+    "dialectOptions": {
+      "ssl": false
+    }
+  },
+  "test": {
+    "username": "postgres",
+    "password": "",
+    "database": "folo",
+    "host": "localhost",
+    "dialect": "postgres",
+    "port": 5433,
+    "dialectOptions": {
+      "ssl": false
+    }
+  },
+  "production": {
+    "username": "postgres",
+    "password": "",
+    "database": "folo",
+    "host": "localhost",
+    "dialect": "postgres",
+    "port": 5433,
+    "dialectOptions": {
+      "ssl": false
+    }
+  }
+}
